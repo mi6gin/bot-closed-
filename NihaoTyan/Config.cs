@@ -4,6 +4,6 @@ namespace Nihao
 {
     static class Config
     {
-        public static readonly string Token = "ПОШЕЛ НАХУЙ БЫДЛО";
+        public static readonly string Token = Environment.GetEnvironmentVariable("BOT_TOKEN");
     }
 }

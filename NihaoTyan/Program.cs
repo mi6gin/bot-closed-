@@ -11,6 +11,7 @@ namespace Nihao
         private static SteptoFreedom steptoFreedom;
         static async Task Main(string[] args)
         {
+            DotEnv.Load(".env");
             var botClient = new TelegramBotClient(Config.Token);
 
 
